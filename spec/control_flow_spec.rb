@@ -51,10 +51,11 @@ describe '#fizzbuzz' do
     expect(fizzbuzz(9)).to eq('Fizz')
   end
   
-  it 'returns "Buzz" when the input is a multiple of 5' do
+  it 'returns "Buzz" when the input is a multiple of 5' do 
     expect(fizzbuzz(5)).to eq('Buzz')
     expect(fizzbuzz(10)).to eq('Buzz')
   end
+end
   
   it 'returns the number when the input not is a multiple of 3 or 5' do
     expect(fizzbuzz(4)).to eq(4)
